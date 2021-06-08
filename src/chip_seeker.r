@@ -5,12 +5,13 @@ install.packages("BiocManager")
 BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene")
 BiocManager::install("clusterProfiler")
 BiocManager::install("ChIPseeker")
-BiocManager::install("org.Hs.eg.db")
+
 
 library(ChIPseeker)
 #library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 library(clusterProfiler)
+library(org.Hs.eg.db)
 
 ###
 
@@ -31,8 +32,8 @@ png(paste0(OUT_DIR, 'chip_seeker.', NAME, '.plotAnnoPie.png'))
 plotAnnoPie(peakAnno)
 dev.off()
 
-# peak <- readPeakFile(BED_FN)
-# pdf(paste0(OUT_DIR, 'chip_seeker.', NAME, '.covplot.pdf'))
-# covplot(peak, weightCol="V5")
-# dev.off()
+peak <- readPeakFile(BED_FN)
+pdf(paste0(OUT_DIR, 'chip_seeker.', NAME, '.covplot.pdf'))
+covplot(peak, weightCol="V5")
+dev.off()
 # 
