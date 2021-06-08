@@ -18,7 +18,8 @@ library(org.Hs.eg.db)
 #NAME <- 'H3K4me3_A549.intersect_with_DeepZ'
 #NAME <- 'DeepZ'
 #NAME <- 'H3K4me1_ENCFF791SEO.mm10.filtered'
-NAME <- 'H3K4me1_ENCFF596ORE.mm10.filtered'
+#NAME <- 'H3K4me1_ENCFF596ORE.mm10.filtered'
+NAME <- "H3K4me1_ZDNA.intersect_with_DEEPZ"
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
 ###

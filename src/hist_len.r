@@ -1,7 +1,8 @@
 setwd("C:/Users/SKudr/Documents/GitHub/hse21_H3K4me1_ZDNA_mouse/src")
 source('lib.R')
 
-NAME <- 'mouse-ZDNA1'
+#NAME <- 'mouse-ZDNA1'
+NAME <- 'H3K4me1_ZDNA.intersect_with_DEEPZ'
 #NAME <- 'H3K4me1_ENCFF596ORE.mm10'
 #NAME <- 'H3K4me1_ENCFF791SEO.mm10'
 bed_df <- read.delim(paste0(DATA_DIR, NAME, '.bed'), as.is = TRUE, header = FALSE)
