@@ -34,3 +34,16 @@
 ![pie2](results/chip_seeker.H3K4me1_ENCFF791SEO.mm10.filtered.plotAnnoPie.png "Для ENCFF791SEO")​
 
 Как мы видим, большинство пиков приходится на интроны и межгенные участки.
+
+
+Затем я объединил два набора отфильтрованных ChIP-seq пиков с помощью утилиты bedtools merge.
+
+>cat  *.filtered.bed  |   sort -k1,1 -k2,2n   |   bedtools merge   >  H3K4me3_A549.merge.hg19.bed 
+
+Можно проверить корректность работы bedtools, визуализировав пики до и после объединения в геномном браузере:
+
+![browser](results/genome_browser_pic.png "Пики двух экспериментов и объединения")​
+
+Кажется, все работает!
+
+
