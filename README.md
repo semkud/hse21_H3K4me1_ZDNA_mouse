@@ -14,13 +14,13 @@
 > 
 > zcat ENCFF596ORE.bed.gz  |  cut -f1-5 > H3K4me1_ENCFF832EOL.mm10.bed
 
-Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
+Затем я построил гистограммы длин участков для каждого распределения. и оставил только те, длины которых не превышают 3000.
 
-![hist1](results/len_hist.H3K4me1_ENCFF596ORE.mm10.init.png "Для ENCFF596ORE")​
+![hist1](results/len_hist.H3K4me1_ENCFF596ORE.mm10.png "Для ENCFF596ORE")​
 
-![hist2](results/len_hist.H3K4me1_ENCFF596ORE.mm10.init.png "Для ENCFF791SEO")​
+![hist2](results/len_hist.H3K4me1_ENCFF791SEO.mm10.png "Для ENCFF791SEO")​
 
-Вот новые гистограммы:
+И оставил только те, длины которых не превышают 5000. Вот новые гистограммы:
 
 ![hist3](results/len_hist.H3K4me1_ENCFF596ORE.mm10.filtered.png "Для ENCFF596ORE")​
 
