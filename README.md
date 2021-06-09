@@ -26,6 +26,8 @@
 
 ![hist4](results/len_hist.H3K4me1_ENCFF791SEO.mm10.filtered.png "Для ENCFF791SEO")​
 
+Число пиков сократилось не значительно. Со 170к до 168к в одном эксперименте и всего на один в другом.
+
 Рассмотрим, где располагаются пики гистоновой метки относительно аннотированных генов:
 
 
@@ -38,7 +40,7 @@
 
 Затем я объединил два набора отфильтрованных ChIP-seq пиков с помощью утилиты bedtools merge.
 
->cat  *.filtered.bed  |   sort -k1,1 -k2,2n   |   bedtools merge   >  H3K4me3_A549.merge.hg19.bed 
+>cat  *.filtered.bed  |   sort -k1,1 -k2,2n   |   bedtools merge   >  H3K4me1_ZDNA.merge.mm10.bed 
 
 Можно проверить корректность работы bedtools, визуализировав пики до и после объединения в геномном браузере:
 
@@ -47,3 +49,23 @@
 Кажется, все работает!
 
 # # Анализ участков вторичной структуры
+
+Сначала я скачал файл ZDNA_mouse_1 в папку data. И обрезал нужные нам колонки для работы
+
+> wget https://drive.google.com/u/0/uc?id=1gFY4Ma9OWFJBWVhgdV3TqTf8pgy_ghKy&export=download
+> cat mouseZ-DNA1.bed   |  cut -f1-5 > mouse-ZDNA1.bed
+
+Рассмотрим распределение длин участков вторичной структуры ДНК и их расположение относительно аннотированного генома:
+![hist5](results/len_hist.mouse-ZDNA1.png "Для ZDNA")​
+
+![pie5](results/chip_seeker.mouse-ZDNA1.plotAnnoPie.png "Для ZDNA")​
+
+Здесь мы видим, что большинство координат участков вторичной структуры ДНК попадают на промоторы генов.
+
+# # Анализ пересечений гистоновой метки и стр-ры ДНК
+
+Находим вышеуказанное пересечение с помощью команды bedtools intersect
+
+> bedtools intersect  -a mouse-ZDNA1.bed   -b  H3K4me1_ZDNA.merge.mm10.bed  >  H3K4me1_ZDNA.intersect_with_DEEPZ.bed
+
+
