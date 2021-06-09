@@ -22,4 +22,15 @@
 
 Вот новые гистограммы:
 
+![hist3](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.filtered.hist.pdf "Для ENCFF596ORE")​
 
+![hist4](results/filter_peaks.H3K4me1_ENCFF791SEO.mm10.filtered.hist.pdf "Для ENCFF791SEO")​
+
+Рассмотрим, где располагаются пики гистоновой метки относительно аннотированных генов:
+
+
+![pie1](results/chip_seeker.H3K4me1_ENCFF596ORE.mm10.filtered.plotAnnoPie.png "Для ENCFF596ORE")​
+
+![pie2](results/chip_seeker.H3K4me1_ENCFF791SEO.mm10.filtered.plotAnnoPie.png "Для ENCFF791SEO")​
+
+Как мы видим, большинство пиков приходится на интроны и межгенные участки.
