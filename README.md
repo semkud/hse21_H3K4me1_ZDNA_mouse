@@ -78,10 +78,10 @@
 ![browser2](results/genome_browser_pic2.png "Пики двух экспериментов и объединения")​
 ![browse2r](results/genome_browser_pic3.png "Пики двух экспериментов и объединения")​
 
-Сессия на геномбраузере - 
+Сессия на геномбраузере - https://genome.ucsc.edu/s/semkud/mm10_semkud_session
 
 Затем мы проассоциировали получившиеся пересечения с ближайшими генами с помощью библиотеки ChIPpeakAnno:
-Получилось 79 ассоциаций с генами - https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/blob/main/data/H3K4me1_ZDNA.intersect_with_DEEPZ.genes.txt , из них 72 уникальных - https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/blob/main/data/H3K4me1_ZDNA.intersect_with_DEEPZ.genes_uniq.txt. 
+Получилось [79 ассоциаций](https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/blob/main/data/H3K4me1_ZDNA.intersect_with_DEEPZ.genes.txt) с генами, из них [72 уникальных](https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/blob/main/data/H3K4me1_ZDNA.intersect_with_DEEPZ.genes_uniq.txt). 
 
 
 На сайте http://pantherdb.org/ мы провели GO анализ получившихся генов, однако никаких статистически значимых результатов он не дал.
