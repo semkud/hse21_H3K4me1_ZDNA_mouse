@@ -16,15 +16,15 @@
 
 Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
 
-![hist1](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF596ORE")​
+![hist1](results/len_hist.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF596ORE")​
 
-![hist2](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF791SEO")​
+![hist2](results/len_hist.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF791SEO")​
 
 Вот новые гистограммы:
 
-![hist3](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.filtered.hist.png "Для ENCFF596ORE")​
+![hist3](results/len_hist.H3K4me1_ENCFF596ORE.mm10.filtered.hist.png "Для ENCFF596ORE")​
 
-![hist4](results/filter_peaks.H3K4me1_ENCFF791SEO.mm10.filtered.hist.png "Для ENCFF791SEO")​
+![hist4](results/len_hist.H3K4me1_ENCFF791SEO.mm10.filtered.hist.png "Для ENCFF791SEO")​
 
 Рассмотрим, где располагаются пики гистоновой метки относительно аннотированных генов:
 
