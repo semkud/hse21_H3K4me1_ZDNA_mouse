@@ -68,4 +68,12 @@
 
 > bedtools intersect  -a mouse-ZDNA1.bed   -b  H3K4me1_ZDNA.merge.mm10.bed  >  H3K4me1_ZDNA.intersect_with_DEEPZ.bed
 
+Всего у нас получилось 514 пересечений:
 
+![hist6](results/len_hist.H3K4me1_ZDNA.intersect_with_DEEPZ.png "Пики после пересечения")​
+![pie6](results/chip_seeker.H3K4me1_ZDNA.intersect_with_DEEPZ.plotAnnoPie.png "Пики после пересечения")​
+
+Визуализируем в геномном браузере получившиеся результаты:
+
+![browser2](results/genome_browser_pic2.png "Пики двух экспериментов и объединения")​
+![browse2r](results/genome_browser_pic3.png "Пики двух экспериментов и объединения")​
