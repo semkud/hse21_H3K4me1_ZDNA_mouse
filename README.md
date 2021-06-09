@@ -7,8 +7,11 @@
 
 Сначала я скачал bed-файлы экспериментов и для работы с ними обрезал до первых пяти столбцов:
 > wget https://www.encodeproject.org/files/ENCFF791SEO/@@download/ENCFF791SEO.bed.gz
+> 
 > wget https://www.encodeproject.org/files/ENCFF596ORE/@@download/ENCFF596ORE.bed.gz
+> 
 > zcat ENCFF791SEO.bed.gz  |  cut -f1-5 > H3K4me1_ENCFF832EOL.mm10.bed
+> 
 > zcat ENCFF596ORE.bed.gz  |  cut -f1-5 > H3K4me1_ENCFF832EOL.mm10.bed
 
 Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
