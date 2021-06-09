@@ -1,7 +1,7 @@
 # hse21_H3K4me1_ZDNA_mouse
 
 #  Кудрявцев Семен Алексеевич, 4 группа, доклад о проделанной работе
-
+# # Анализ пиков гистоновой метки
 В данной работе будет рассматриваться гистоновая метка H3K4me1 в геноме мыши (сборка генома mm10).
 Я выбрал клетку CH12.LX и в ней эксперименты ENCFF596ORE и ENCFF791SEO.
 
@@ -16,15 +16,15 @@
 
 Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
 
-![hist1](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF596ORE")​
+![hist1](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF596ORE")​
 
-![hist2](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF791SEO")​
+![hist2](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.png "Для ENCFF791SEO")​
 
 Вот новые гистограммы:
 
-![hist3](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.filtered.hist.pdf "Для ENCFF596ORE")​
+![hist3](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.filtered.hist.png "Для ENCFF596ORE")​
 
-![hist4](results/filter_peaks.H3K4me1_ENCFF791SEO.mm10.filtered.hist.pdf "Для ENCFF791SEO")​
+![hist4](results/filter_peaks.H3K4me1_ENCFF791SEO.mm10.filtered.hist.png "Для ENCFF791SEO")​
 
 Рассмотрим, где располагаются пики гистоновой метки относительно аннотированных генов:
 
@@ -46,4 +46,4 @@
 
 Кажется, все работает!
 
-
+# # Анализ участков вторичной структуры
