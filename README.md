@@ -16,9 +16,9 @@
 
 Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
 
-![alt tag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF596ORE")​
+![alttag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF596ORE")​
 
-![alt tag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF791SEO")​
+![alttag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF791SEO")​
 
 Вот новые гистограммы:
 
