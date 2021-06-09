@@ -16,9 +16,9 @@
 
 Затем я построил гистограммы длин участков для каждого распределения, и оставил только те, длины которых не превышают 3000.
 
-![alt tag](https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/raw/main/results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF596ORE")​
+![alt tag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF596ORE")​
 
-![alt tag](https://github.com/semkud/hse21_H3K4me1_ZDNA_mouse/raw/main/results/filter_peaks.H3K4me1_ENCFF791SEO.mm10.init.hist.pdf "Для ENCFF791SEO")​
+![alt tag](results/filter_peaks.H3K4me1_ENCFF596ORE.mm10.init.hist.pdf "Для ENCFF791SEO")​
 
 Вот новые гистограммы:
 
